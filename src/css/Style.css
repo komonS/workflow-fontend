@@ -1,0 +1,83 @@
+.sidenav {
+    height: 100%;
+    width: 345px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2F5D8C;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 1rem 0rem 1rem 2rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F9F6E4;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #2F5D8C;
+    background-color: #F9F6E4;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .sidenav h2{
+    padding: 1rem 0rem 1rem 2rem;
+    color: #D4af37;
+    font-weight: 800px;
+
+  }
+
+  .navbar {
+    background-color: #2F5D8C;
+    height: 80px;
+    top: 0;
+    
+  }
+
+  .navbar a{
+    font-size: 36px;
+    padding: 6px;
+    color: #D4af37;
+    font-weight: 800px;
+    
+  }
+
+  .main {
+    margin-left: 345px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+body {
+  margin-left: 345px;
+  background-color: #F9F6E4;
+  font-family: "Trirong", serif;
+}
+
+button  .btn{
+  border: none;
+}
+
+.Product-list{
+  padding: 1rem 0rem 1rem 2rem;
+  
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
